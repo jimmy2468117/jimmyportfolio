@@ -19,10 +19,29 @@
 }
 
 #carda {
-  background:  rgb(255, 225, 57);
+  background:  rgb(255, 235, 119);
 }
 #cardb {
   background:  rgb(198, 198, 198);
+}
+#cardc {
+  background:  rgb(255, 160, 160);
+}
+#cardd {
+  background:  #7d8aff;
+   
+}
+#carde {
+  background:  rgb(255, 181, 120);
+}
+#cardf {
+  background:  rgb(162, 246, 255);
+}
+#cardg {
+  background:  rgb(194, 151, 255);
+}
+#cardh {
+  background:  rgb(93, 132, 123);
 }
 
 /* 卡片 */
@@ -54,7 +73,7 @@
   overflow: hidden;
   border-radius: 12px;
   margin-bottom: 16px;
-
+  
   border: solid 0px #8f8f8f;
  align-items: center;
    align-content: center;
@@ -68,6 +87,7 @@
   transition: transform 0.35s ease;
    align-items: center;
    align-content: center;
+    border-radius: 12px;
 }
 
 
@@ -98,6 +118,12 @@
 .card p {
   font-size: 0.9rem;
   color: #292929;
+  margin: 0;
+}
+
+.card p3 {
+  font-size: 0.9rem;
+  color: #ffffff;
   margin: 0;
 }
 

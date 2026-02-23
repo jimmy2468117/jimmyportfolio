@@ -5,7 +5,7 @@ let reverse = false;
 
 function type() {
   let text = words[part].substring(0, index);
-  document.getElementById("text").innerHTML =
+  document.getElementById("texta").innerHTML =
     text + '<span class="cursor">_</span>';
 
   if (!reverse) {

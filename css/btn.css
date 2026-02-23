@@ -1,9 +1,79 @@
 @charset "utf-8";
 
 
+.nobutton {
+
+
+
+  width: 100%;
+  height: 110vh;
+  /* 調整你想要的高度 */
+  left: 50%;
+  margin-left: -50vw;
+  padding: 0px;
+  
+  background-image: url("../img/bgyoutube.png");
+  /* ← 放你的背景圖 */
+  background-size: flex;
+  background-position: center;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  display: flex;
+  background-size: cover;
+  /* 或 contain / 特定尺寸 */
+  flex-direction: column;
+  background-repeat: no-repeat;
+
+  /* background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
+
+  background-size: cover;
+  background-position: center center;
+*/
+
+  gap: 8px;
+  /* background-color: rgb(90, 255, 227);
+  
+height: 800px;
+width: 100%;
+*/
+
+  position: relative;
+}
+
+
+#ida {
+  a {
+    text-decoration: none;
+    /* 預設無底線 */
+
+    margin: 10px 5px;
+  }
+
+}
+
+a:hover {
+  text-decoration: none;
+  /* 懸停時顯示底線 */
+}
+
+
+
+
+
+
+
+html { scroll-behavion: smooth; }
+
+
+
+
+
 
 div.twobutton {
-  
+
   width: 100vw;
   height: 100vh;
   /* 調整你想要的高度 */
@@ -18,14 +88,14 @@ div.twobutton {
   align-items: center;
   justify-content: center;
   color: #fff;
- display: flex;
-        background-size: cover;
-        /* 或 contain / 特定尺寸 */
-       flex-direction: column;
-        background-repeat: no-repeat;
+  display: flex;
+  background-size: cover;
+  /* 或 contain / 特定尺寸 */
+  flex-direction: column;
+  background-repeat: no-repeat;
 
-background-color: rgba(0, 0, 0, 0.6);
-background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
 
   background-size: cover;
   background-position: center center;
@@ -43,27 +113,30 @@ width: 100%;
 
 #ida {
   a {
-  text-decoration: none; /* 預設無底線 */
+    text-decoration: none;
+    /* 預設無底線 */
 
- margin: 10px 5px;
+    margin: 10px 5px;
   }
 
 }
+
 a:hover {
-  text-decoration: none; /* 懸停時顯示底線 */
+  text-decoration: none;
+  /* 懸停時顯示底線 */
 }
 
 
 .button {
 
- text-decoration: none;
-  
+  text-decoration: none;
+
   background-color: #ff29ed;
   border: none;
   color: white;
   padding: 15px;
   text-align: center;
-  
+
   display: inline-block;
   font-size: 20px;
   margin: 0px 0px;
