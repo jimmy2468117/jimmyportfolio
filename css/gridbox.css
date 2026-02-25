@@ -19,29 +19,29 @@
 }
 
 #carda {
-  background:  rgb(255, 235, 119);
+  background:   rgb(152, 138, 67);
 }
 #cardb {
-  background:  rgb(198, 198, 198);
+  background:  rgb(149, 137, 78);
 }
 #cardc {
-  background:  rgb(255, 160, 160);
+  background:  rgb(149, 137, 78);
 }
 #cardd {
-  background:  #7d8aff;
+  background:   rgb(149, 137, 78);
    
 }
 #carde {
-  background:  rgb(255, 181, 120);
+  background:   rgb(149, 137, 78);
 }
 #cardf {
-  background:  rgb(162, 246, 255);
+  background:    rgb(149, 137, 78);
 }
 #cardg {
-  background:  rgb(194, 151, 255);
+  background:    rgb(149, 137, 78);
 }
 #cardh {
-  background:  rgb(93, 132, 123);
+  background:    rgb(149, 137, 78);
 }
 
 /* 卡片 */
@@ -102,7 +102,7 @@
 .tag {
   font-size: 0.75rem;
   padding: 4px 10px;
-  background: #6f6f6f;
+  background: #212121;
   color: #ffffff;
   border-radius: 8px;
   white-space: nowrap;
@@ -132,4 +132,22 @@
   font-size: 0.9rem;
   color: #777;
   margin: 0;
+}
+
+
+.image-container {
+  display: flex;              /* 開啟 flexbox */
+  flex-direction: row;        /* 水平排列（預設就是 row，可省略） */
+  gap: 20px;                  /* 兩張圖之間的間距（可調整） */
+  justify-content: center;    /* 整體置中（可改成 space-between、space-around 等） */
+  align-items: center;        /* 垂直置中對齊（如果圖片高度不同很有用） */
+  margin: 20px auto;          /* 外層容器置中，可選 */
+  max-width: 1200px;          /* 限制最大寬度，防止太大，可選 */
+}
+
+.image-container img {
+  width: 50%;                 /* 每張各佔 50%（可改成 40% / 60% 等） */
+  height: auto;               /* 保持圖片比例 */
+  object-fit: cover;          /* 圖片填滿但不變形，可改成 contain */
+  border-radius: 8px;         /* 可選：圓角 */
 }

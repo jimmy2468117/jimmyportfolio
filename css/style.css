@@ -41,7 +41,11 @@
   }
 
 
-a {
+a:visited{color: #fff;}
+
+a {  
+    color: #fff;
+  
   text-decoration: none; /* 預設無底線 */}
 
    h8 {
