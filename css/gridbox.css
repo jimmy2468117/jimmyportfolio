@@ -19,29 +19,30 @@
 }
 
 #carda {
-  background:   rgb(152, 138, 67);
+  background:   rgb(0, 0, 0);
 }
 #cardb {
-  background:  rgb(149, 137, 78);
+  background:  rgb(0, 0, 0);
 }
 #cardc {
-  background:  rgb(149, 137, 78);
+  background:  rgb(0, 0, 0);
 }
 #cardd {
-  background:   rgb(149, 137, 78);
+  background:   rgb(0, 0, 0);
    
 }
 #carde {
-  background:   rgb(149, 137, 78);
+  background:   rgb(0, 0, 0);
 }
 #cardf {
-  background:    rgb(149, 137, 78);
+  background:    rgb(0, 0, 0);
 }
 #cardg {
-  background:    rgb(149, 137, 78);
+  background:    rgb(0, 0, 0);
 }
 #cardh {
-  background:    rgb(149, 137, 78);
+  background:    rgb(0, 0, 0);
+  
 }
 
 /* 卡片 */
@@ -53,7 +54,7 @@
   transition: 0.25s;
   cursor: pointer;
   overflow: hidden;
-  border: solid 0px #8f8f8f;
+  border: solid 1px rgb(149, 137, 78);;
 }
 
 .card:hover {
@@ -106,6 +107,7 @@
   color: #ffffff;
   border-radius: 8px;
   white-space: nowrap;
+  border: solid 1px rgb(149, 137, 78);;
 }
 
 /* ----------- 標題 / 副標 ----------- */
