@@ -51,10 +51,18 @@ a {
    h8 {
     color: #fff;
   
-    font-size: 300px;
+    font-size: 100px;
   
 
   }
+
+
+  h6 {
+    color: #fff;
+  
+    font-size: 40px;
+  }
+
 
   h5 {
     color: #fff;
