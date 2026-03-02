@@ -1,75 +1,77 @@
 @charset "utf-8";
 
- div.p1 {
-   
-    color: #fff;
-    text-align: center;
-    align-items: center;
-    font-size: 15px;
-    white-space: nowrap;
-  }
+div.p1 {
+
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  font-size: 15px;
+  white-space: nowrap;
+}
 
 
-div.en-about-me {
-      text-align: left;
-      width:80%;
-      max-width: 800px;
-   
-    margin: 0 auto;
-    color: #fff;
-padding: 4px 20px;
+div.enabout-me {
+  text-align: left;
+  width: 80%;
+  max-width: 800px;
 
+  margin: 0 auto;
+  color: #fff;
+  padding: 4px 20px;
+ white-space: wrap;
 
 }
 
 
 div.about-me {
-      text-align: left;
-      width:80%;
-      max-width: 800px;
-   
-    margin: 0 auto;
-    color: #fff;
-padding: 4px 20px;
-white-space: nowrap;
+  text-align: left;
+  width: 80%;
+  max-width: 800px;
+
+  margin: 0 auto;
+  color: #fff;
+  padding: 4px 20px;
+  white-space: nowrap;
 
 }
 
 div.skill {
- text-align: left;
-      width:80%;
-      max-width: 800px;
-   
-    margin: 0 auto;
+  text-align: left;
+  width: 80%;
+  max-width: 800px;
 
-    white-space: nowrap;
+  margin: 0 auto;
+
+  white-space: nowrap;
   padding: 4px 20px;
-    text-align: left;
-    align-items: flex-start;
-   
-    color: #fff;
+  text-align: left;
+  align-items: flex-start;
+
+  color: #fff;
+  
 }
 
 .skilltags {
   margin: 20px 30px;
- display: flex;
+  display: flex;
   gap: 12px;
   margin-bottom: 12px;
-   
+ 
+
 }
 
 .skilltag {
   font-size: 0.75rem;
   padding: 6px 12px;
-  background:  rgb(255, 45, 210);
+  background: rgb(255, 45, 210);
   color: #ffffff;
   border-radius: 25px;
-   font-size: 15px;
-  
+  font-size: 15px;
+
 }
 
 .skilltag:hover {
-    background-color: rgb(255, 209, 45);
-    transition-duration: .5s;
-    color: #000000;
+  background-color: rgb(255, 209, 45);
+  transition-duration: .5s;
+  color: #000000;
 }
