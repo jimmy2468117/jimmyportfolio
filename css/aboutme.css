@@ -10,7 +10,7 @@ div.p1 {
 }
 
 
-div.about-me2 {
+.about-me2 {
   text-align: left;
   width: 80%;
   max-width: 800px;
@@ -31,7 +31,7 @@ div.about-me {
   margin: 0 auto;
   color: #fff;
   padding: 4px 20px;
-  white-space: nowrap;
+  white-space: wrap;
 
 }
 
