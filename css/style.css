@@ -14,6 +14,19 @@
  h4 { font-size: 60px; } 
  h5 { font-size: 50px; } 
 
+div.about-me2 {
+  text-align: left;
+  width: 80%;
+  max-width: 800px;
+
+  margin: 0 auto;
+  color: #fff;
+  padding: 4px 20px;
+ white-space: wrap;
+
+}
+
+
  p { font-size: 18px; }        /* 跟螢幕寬度成正比，超大超爽 */
    div.p1 {font-size: 18px; } 
 
