@@ -7,15 +7,15 @@
   @import url(aboutme.css);
 
 @charset "utf-8";
-  
+   /* 
 @media screen and (max-width: 600px) {
     h2 { font-size: 80px; }        
  h3 { font-size: 60px; } 
  h4 { font-size: 60px; } 
  h5 { font-size: 50px; } 
 
- p { font-size: 18px; }        /* 跟螢幕寬度成正比，超大超爽 */
-   div.p1 {font-size: 18px; } 
+ p { font-size: 18px; }       
+   div.p1 {font-size: 18px; }  /* 跟螢幕寬度成正比，超大超爽 */
 
 .card-grid {
   display: grid;
