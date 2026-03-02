@@ -10,6 +10,19 @@
   }
 
 
+div.en-about-me {
+      text-align: left;
+      width:80%;
+      max-width: 800px;
+   
+    margin: 0 auto;
+    color: #fff;
+padding: 4px 20px;
+
+
+}
+
+
 div.about-me {
       text-align: left;
       width:80%;
